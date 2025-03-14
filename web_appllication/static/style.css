@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* procts qismi boshlandi */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(221, 192, 155);
+    box-shadow: 0 0 10px 2px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: seashell;
+}
+
+/* procts qismi tugadi */
+.container_login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    justify-content: center;
+}
+
+.login {
+    width: 60%;
+    height: 30%;
+    background-color: rgb(182, 174, 173);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px 2px black;
+    text-align: center;
+}
+
+.regester {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(182, 174, 173);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px 2px black;
+    text-align: center;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.form_reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(221, 192, 155);
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgb(221, 192, 155);
+    display: inline-block;
+    width: 80%;
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(221, 192, 155);
+    box-shadow: 0 0 10px 2px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.error {
+    color: red;
+    font-size: 20px;
+}
