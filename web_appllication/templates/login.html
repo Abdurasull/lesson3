@@ -11,10 +11,10 @@
     <div class="container_login">
         <div class="login">
             <h2>Login</h2>
-            <form class="form_login" action="regestr.html" method="post">
+            <form class="form_login" action="{{url_for('user_log')}}" method="post">
                 <div class="input-group">
-                    <label for="username">Username</label><br>
-                    <input type="text" name="username" id="username" required>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="input-group">
                     <label for="password">Password</label><br>
@@ -26,6 +26,7 @@
                 <div class="input-group">
                     <a href="{{url_for('register')}}" class="btn">Regester</a>
                 </div>
+                <p class="error">{{error}}</p>
             </form>
         </div>
     </div>
