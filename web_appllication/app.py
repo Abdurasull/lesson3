@@ -5,7 +5,7 @@ from pprint import pprint
 
 app = Flask(__name__)
 
-@app.route("/", endpoint="home")
+@app.route("/", endpoint="ok")
 def home():
     return render_template("index.html")
 
@@ -47,11 +47,7 @@ def user_log():
         x_email = list(filter(lambda user: user['email'] == request.form['email'], users ))
 
         if len(x_email) and (x_email[0]['password']  == request.form['password']):
-            users.append(request.form)
-        
-            with open("db/users.json", "w", encoding="utf-8") as f:
-                f.write(json.dumps(users, indent=4, ensure_ascii=False))
-            return render_template("user.html", user=request.form)    
+            return render_template("user.html", user=x_email[0])    
             # print(users)
         else:
             return render_template("login.html", error="Email yoki parol xato")

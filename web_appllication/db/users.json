@@ -91,18 +91,17 @@
         "repate_password": "00000"
     },
     {
-        "username": "Abdurasul",
+        "username": "Boburjon",
         "lastname": "Salimov",
         "email": "abdurasulsaliomov94@gmail.com",
         "password": "77777",
         "repate_password": "77777"
     },
     {
-        "email": "abdurasulsalimov94@gmail.com",
-        "password": "12345"
-    },
-    {
-        "email": "abdurasulsalimov94@gmail.com",
-        "password": "12345"
+        "username": "Asror",
+        "lastname": "Qurbonov",
+        "email": "Salimovv@gmail.com",
+        "password": "888888",
+        "repate_password": "888888"
     }
 ]
